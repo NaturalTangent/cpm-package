@@ -1,6 +1,6 @@
 # cpm-package
 
-A cross platform, command line tool to generate package files for copying to Grant Searle's CP/M computers (including derivatives such as RC2014).
+A cross platform, command line tool to generate package files compliant with Grant Searle's CP/M computers (including derivatives such as RC2014).
 
 __Only tested on linux so far!__
 
@@ -23,7 +23,7 @@ go build cpm-package.go
 
 This tool allows files to be packaged in preparation for transferring to a CP/M machine. For details of how to transfer this package file, see http://www.searle.wales.
 
-_Note: I had to add a 10ms delay between characters when sending the file - using cutecom on linux.
+_Note: I had to add a 10ms delay between characters when sending the file - using cutecom on linux._
 
 
 ### Command Line Parameters
@@ -34,7 +34,7 @@ cpm-package [-o outputfile] [-u user] [-r receiving-exe] binary1 binary2 ... bin
 
 Where;
 * _outputfile_  is the resulting package file. If not specified _stdout_ is used.
-* _user_ is the cpm user. If not specified _UO_ is used.
+* _user_ is the cpm user. If not specified _U0_ is used.
 * _receiving-exe_ is the cp/m executable use to process the data on the cp/m machine. If not specified _A:DOWNLOAD_ is used.
 
 The list of files to be packaged must be specified last - wildcards are supported.
