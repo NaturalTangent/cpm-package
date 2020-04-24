@@ -34,8 +34,8 @@ cpm-package [-o outputfile] [-u user] [-r receiving-exe] binary1 binary2 ... bin
 
 Where;
 * _outputfile_  is the resulting package file. If not specified _stdout_ is used.
-* _user_ is the cpm user. If not specified _U0_ is used.
-* _receiving-exe_ is the cp/m executable use to process the data on the cp/m machine. If not specified _A:DOWNLOAD_ is used.
+* _user_ is the CP/M user. If not specified _U0_ is used.
+* _receiving-exe_ is the CP/M executable use to process the data on the cp/m machine. If not specified _A:DOWNLOAD_ is used.
 
 The list of files to be packaged must be specified last - wildcards are supported.
 
