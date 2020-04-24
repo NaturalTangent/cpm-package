@@ -1,6 +1,6 @@
 # cpm-package
 
-A cross platform, command line tool to generated package files for copying to Grant Searle's CP/M computers (including derivatives such as RC2014).
+A cross platform, command line tool to generate package files for copying to Grant Searle's CP/M computers (including derivatives such as RC2014).
 
 __Only tested on linux so far!__
 
